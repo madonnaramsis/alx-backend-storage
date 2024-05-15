@@ -1,0 +1,4 @@
+// Delete given matched attr
+db.school.deleteMany(
+    { name: "Holberton school" }
+)
